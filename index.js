@@ -51,16 +51,18 @@ let button1 = document.getElementById("btn1");
 let button2 = document.getElementById("btn2");
 let button3 = document.getElementById("btn3");
 let mainElement = document.getElementById("mainElement");
-console.log(mainElement);
 
+// button1 event listner for the click to change background color for the body
 button1.addEventListener('click', function() {
   mainElement.style.backgroundColor = "red";
 });
 
+// button2 event listner for the click to change background color for the body
 button2.addEventListener('click', function() {
   mainElement.style.backgroundColor = "blue";
 });
 
+// button3 event listner for the click to change background color for the body
 button3.addEventListener('click', function() {
   mainElement.style.backgroundColor = "yellow";
 });
