@@ -50,10 +50,10 @@ function resetGame() {
 let button1 = document.getElementById("btn1");
 let button2 = document.getElementById("btn2");
 let button3 = document.getElementById("btn3");
-let mainElement = document.getElementsByTagName("body");
+let mainElement = document.getElementById("mainElement");
+console.log(mainElement);
 
 button1.addEventListener('click', function() {
-  console.log("Wokrs1");
   mainElement.style.backgroundColor = "red";
 });
 
